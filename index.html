@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jeeshma Prakash | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- preloader: colourful curtain that sweeps away once the page is ready -->
+<div class="preloader" id="preloader" role="status" aria-label="Loading page">
+  <div class="preloader__panel preloader__panel--lilac" aria-hidden="true"></div>
+  <div class="preloader__panel preloader__panel--gold" aria-hidden="true"></div>
+  <div class="preloader__panel preloader__panel--pink" aria-hidden="true"></div>
+  <div class="preloader__panel preloader__panel--orange" aria-hidden="true"></div>
+
+  <div class="preloader__body">
+    <div class="preloader__blobs" aria-hidden="true"></div>
+    <span class="preloader__spark preloader__spark--1" aria-hidden="true">✳</span>
+    <span class="preloader__spark preloader__spark--2" aria-hidden="true">✦</span>
+    <span class="preloader__spark preloader__spark--3" aria-hidden="true">✺</span>
+    <span class="preloader__spark preloader__spark--4" aria-hidden="true">✦</span>
+
+    <div class="preloader__inner">
+      <div class="preloader__name" aria-hidden="true">
+        <span class="preloader__letter" style="--i:0">J</span>
+        <span class="preloader__letter" style="--i:1">E</span>
+        <span class="preloader__letter" style="--i:2">E</span>
+        <span class="preloader__letter" style="--i:3">S</span>
+        <span class="preloader__letter" style="--i:4">H</span>
+        <span class="preloader__letter" style="--i:5">M</span>
+        <span class="preloader__letter" style="--i:6">A</span>
+      </div>
+      <div class="preloader__bar"><span class="preloader__bar-fill" id="preloaderBar"></span></div>
+      <p class="preloader__hint">loading the fun… <span class="preloader__count"><span id="preloaderCount">0</span>%</span></p>
+    </div>
+  </div>
+</div>
+<noscript><style>.preloader { display: none; }</style></noscript>
+<script src="assets/js/preloader.js"></script>
+
+<div id="navbar"></div>
+
+<section class="hero hero--s1" id="hero">
+ <div class="hero__pin" id="heroPin">
+  <div class="hero__bg hero__bg--s1"></div>
+  <div class="hero__bg hero__bg--s2"></div>
+  <div class="hero__bg hero__bg--s3"></div>
+  <div class="hero__bg hero__bg--s4"></div>
+
+  <div class="hero__grid"></div>
+  <div class="hero__flare"></div>
+  <div class="hero__circle" aria-hidden="true"></div>
+
+  <div class="hero__deco" aria-hidden="true">
+    <span class="deco deco--a1">✳</span>
+    <span class="deco deco--a2">✦</span>
+    <span class="deco deco--a3">✳</span>
+    <span class="deco deco--a4">✺</span>
+  </div>
+
+  <div class="hero__bgtext" aria-hidden="true">
+    <div class="hero__bgtext-inner">
+      <span class="hero__bgtext-line hero__bgtext-line--name" id="heroName">JEESHMA PRAKASH</span>
+      <span class="hero__bgtext-line hero__bgtext-line--role role--s1" id="heroRole">ENTREPRENEUR</span>
+    </div>
+  </div>
+
+  <div class="hero__photo-wrap">
+    <div class="hero__photo-flip" id="heroFlip">
+      <img id="heroPhoto" src="assets/images/Entrepreneur.png" alt="Jeeshma Prakash" class="hero__photo">
+    </div>
+  </div>
+
+  <div class="hero__roleicons" aria-hidden="true">
+    <div class="roleset roleset--s1">
+      <span class="role-icon clay clay--orange" title="Rocket">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c2.8 1.9 4 5 4 8.1L12 15l-4-3.9C8 8 9.2 4.9 12 3z"/><circle cx="12" cy="9" r="1.6"/><path d="M8.6 16.2 7.2 20M15.4 16.2l1.4 3.8M12 16.5V21"/></svg>
+      </span>
+      <span class="role-icon clay clay--gold" title="Idea">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M9.4 14.2a5.6 5.6 0 1 1 5.2 0c-.7.4-1.1 1-1.1 1.7v1.1h-3v-1.1c0-.7-.4-1.3-1.1-1.7z"/><path d="M10.4 20.5h3.2"/></svg>
+      </span>
+      <span class="role-icon clay clay--pink" title="Growth">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20.5h16"/><path d="M7 20.5V14M12 20.5V9.5M17 20.5V5"/></svg>
+      </span>
+    </div>
+    <div class="roleset roleset--s2">
+      <span class="role-icon clay clay--pink" title="Graduation">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5 12 5l9 4.5-9 4.5-9-4.5z"/><path d="M7 11.5v3.6c0 1.4 2.2 2.4 5 2.4s5-1 5-2.4v-3.6"/><path d="M21 9.5v4.5"/></svg>
+      </span>
+      <span class="role-icon clay clay--lilac" title="Books">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 4.5H11a2 2 0 0 1 2 2V19.5a2 2 0 0 0-2-2H4.5v-13z"/><path d="M19.5 4.5H13a2 2 0 0 0-2 2"/><path d="M19.5 4.5v13H13a2 2 0 0 0-2 2"/></svg>
+      </span>
+      <span class="role-icon clay clay--gold" title="Chat">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4.5c4.7 0 8.5 3 8.5 6.7s-3.8 6.8-8.5 6.8c-1 0-2-.2-2.9-.4L5 19.5l1.2-3.2c-1.6-1.2-2.7-3-2.7-5.1 0-3.7 3.8-6.7 8.5-6.7z"/></svg>
+      </span>
+    </div>
+    <div class="roleset roleset--s3">
+      <span class="role-icon clay clay--gold" title="Clapper">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="9.5" width="17" height="10.5" rx="2"/><path d="M3.5 9.5 5 4.8l16 2-0.8 2.7"/><path d="M9 5.3 10.8 9M14.5 6 16.3 9.4"/></svg>
+      </span>
+      <span class="role-icon clay clay--pink" title="Camera">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="7" width="17" height="13" rx="3"/><circle cx="12" cy="13.3" r="3.6"/><path d="M8.5 7 10 4.5h4L15.5 7"/></svg>
+      </span>
+      <span class="role-icon clay clay--orange" title="Mic">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0 0 13 0"/><path d="M12 18v3"/></svg>
+      </span>
+    </div>
+    <div class="roleset roleset--s4">
+      <span class="role-icon clay clay--lilac" title="Code">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7.5 3.5 12 8 16.5M16 7.5l4.5 4.5L16 16.5"/></svg>
+      </span>
+      <span class="role-icon clay clay--gold" title="Bolt">
+        <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M13.2 2.5 5.5 13h4.6l-1.3 8.5L16.5 10h-4.6l1.3-7.5z"/></svg>
+      </span>
+      <span class="role-icon clay clay--mint" title="Cursor">
+        <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M6 3.5l12.5 9.2-5.7 1.1 2.6 5.8-2.6 1.1-2.6-5.7-4.2 4V3.5z"/></svg>
+      </span>
+    </div>
+  </div>
+
+  <div class="hero__dots" id="heroDots">
+    <button class="hero__dot is-active" type="button" aria-label="Slide 1 — Entrepreneur"></button>
+    <button class="hero__dot" type="button" aria-label="Slide 2 — Mentor"></button>
+    <button class="hero__dot" type="button" aria-label="Slide 3 — Content Creator"></button>
+    <button class="hero__dot" type="button" aria-label="Slide 4 — Web Developer"></button>
+  </div>
+
+  <div class="hero__fade" aria-hidden="true"></div>
+ </div>
+</section>
+
+<!-- about me section -->
+<section class="about" id="about">
+  <div class="about__ring" aria-hidden="true"></div>
+  <div class="about__deco" aria-hidden="true">
+    <span class="deco about__spark about__spark--1">✦</span>
+    <span class="deco about__spark about__spark--2">✳</span>
+    <span class="deco about__spark about__spark--3">✺</span>
+  </div>
+
+  <div class="about__top">
+    <div class="about__photo-col" data-reveal>
+      <div class="about__photo-card">
+        <span class="about__tape about__tape--l" aria-hidden="true"></span>
+        <span class="about__tape about__tape--r" aria-hidden="true"></span>
+        <img src="assets/images/me.png" alt="Jeeshma Prakash" class="about__photo">
+      </div>
+      <div class="about__tag">
+        <svg class="about__tag-arrow" viewBox="0 0 90 60" fill="none" aria-hidden="true">
+          <path d="M4 6c10 30 30 44 55 40" stroke="#ee4d1f" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 9"/>
+          <path d="M50 40 66 47 61 30" stroke="#ee4d1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>that's me</span>
+      </div>
+    </div>
+
+    <div class="about__intro" data-reveal style="--reveal-delay: 0.12s">
+      <p class="about__hello">Hello <span class="about__wave">👋</span> I'm</p>
+      <h2 class="about__name">Jeeshma Prakash</h2>
+      <p class="about__bio">
+        Co-founder of <strong>Blackbox Learning</strong> and software developer at <strong>Perception</strong>,
+        working across the stack from interface design to backend architecture. I also take on independent
+        <strong>UI/UX design</strong> and <strong>content creation</strong> projects, with a focus on building
+        products that are functional, polished, and genuinely enjoyable to use.
+      </p>
+      <a class="about__mail" href="mailto:jeeshma@blackboxlearning.in">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M4 7l8 6 8-6"/></svg>
+        jeeshma@blackboxlearning.in
+      </a>
+      <a class="about__mail" href="mailto:jeeshma@prception.in">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M4 7l8 6 8-6"/></svg>
+        jeeshma@prception.in
+      </a>
+    </div>
+  </div>
+
+  <div class="about__cards">
+    <div class="about__block about__block--stack" data-reveal="pop">
+      <h3 class="about__block-title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5 20 8l-8 4.5L4 8l8-4.5z"/><path d="M4 12l8 4.5 8-4.5M4 16l8 4.5 8-4.5"/></svg>
+        Tech Stack
+      </h3>
+      <div class="about__stack-grid">
+
+        <div class="about__stack-item" title="HTML5">
+          <span class="about__stack-icon" style="background:#e34f26">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 3.5h16l-1.45 15.2L12 21l-6.55-2.3L4 3.5z" fill="#fff" opacity="0.14"/><path d="M4 3.5h16l-1.45 15.2L12 21l-6.55-2.3L4 3.5z" stroke="#fff" stroke-width="1.3" stroke-linejoin="round"/><text x="12" y="15.5" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="8" fill="#fff">5</text></svg>
+          </span>
+          <span class="about__stack-name">HTML5</span>
+        </div>
+
+        <div class="about__stack-item" title="CSS3">
+          <span class="about__stack-icon" style="background:#1572b6">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 3.5h16l-1.45 15.2L12 21l-6.55-2.3L4 3.5z" fill="#fff" opacity="0.14"/><path d="M4 3.5h16l-1.45 15.2L12 21l-6.55-2.3L4 3.5z" stroke="#fff" stroke-width="1.3" stroke-linejoin="round"/><text x="12" y="15.5" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="8" fill="#fff">3</text></svg>
+          </span>
+          <span class="about__stack-name">CSS3</span>
+        </div>
+
+        <div class="about__stack-item" title="JavaScript">
+          <span class="about__stack-icon" style="background:#f0db4f">
+            <svg viewBox="0 0 24 24"><text x="18" y="18" text-anchor="end" font-family="Poppins, sans-serif" font-weight="700" font-size="9.5" fill="#1c1c1c">JS</text></svg>
+          </span>
+          <span class="about__stack-name">JavaScript</span>
+        </div>
+
+        <div class="about__stack-item" title="Bootstrap">
+          <span class="about__stack-icon" style="background:#7952b3">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5.5h5.2c1.9 0 3.1 1 3.1 2.7 0 1.3-.8 2.1-1.7 2.4.9.3 2 1.1 2 2.7 0 1.9-1.3 3-3.4 3H8v-10.8z"/><path d="M8 10.6h4.9M8 15.4h5.3"/></svg>
+          </span>
+          <span class="about__stack-name">Bootstrap</span>
+        </div>
+
+        <div class="about__stack-item" title="Tailwind CSS">
+          <span class="about__stack-icon" style="background:#0ea5e9">
+            <svg viewBox="0 0 24 24" fill="#fff"><path d="M7 10.2c.7-2.8 2.4-4.2 5-4.2 3.5 0 3.9 2.6 5.6 3 -0.7 2.8-2.4 4.2-5 4.2-3.5 0-3.9-2.6-5.6-3z"/><path d="M2 15.2c.7-2.8 2.4-4.2 5-4.2 3.5 0 3.9 2.6 5.6 3-0.7 2.8-2.4 4.2-5 4.2-3.5 0-3.9-2.6-5.6-3z"/></svg>
+          </span>
+          <span class="about__stack-name">Tailwind</span>
+        </div>
+
+        <div class="about__stack-item" title="React">
+          <span class="about__stack-icon" style="background:#20232a">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#61dafb" stroke-width="1.1">
+              <circle cx="12" cy="12" r="1.9" fill="#61dafb" stroke="none"/>
+              <ellipse cx="12" cy="12" rx="9" ry="3.6"/>
+              <ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(60 12 12)"/>
+              <ellipse cx="12" cy="12" rx="9" ry="3.6" transform="rotate(120 12 12)"/>
+            </svg>
+          </span>
+          <span class="about__stack-name">React</span>
+        </div>
+
+        <div class="about__stack-item" title="Next.js">
+          <span class="about__stack-icon" style="background:#000">
+            <svg viewBox="0 0 24 24"><text x="12" y="16.5" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="11" fill="#fff">N</text></svg>
+          </span>
+          <span class="about__stack-name">Next.js</span>
+        </div>
+
+        <div class="about__stack-item" title="GSAP">
+          <span class="about__stack-icon" style="background:#88ce02">
+            <svg viewBox="0 0 24 24"><text x="12" y="16.5" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="10" fill="#1c3d00">GS</text></svg>
+          </span>
+          <span class="about__stack-name">GSAP</span>
+        </div>
+
+        <div class="about__stack-item" title="Three.js">
+          <span class="about__stack-icon" style="background:#000">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.2" stroke-linejoin="round"><path d="M12 3.5 20 8v8l-8 4.5-8-4.5V8l8-4.5z"/><path d="M12 3.5v17M4 8l8 4.5 8-4.5"/></svg>
+          </span>
+          <span class="about__stack-name">Three.js</span>
+        </div>
+
+        <div class="about__stack-item" title="Node.js">
+          <span class="about__stack-icon" style="background:#3c873a">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.3" stroke-linejoin="round"><path d="M12 3 20 7.5v9L12 21 4 16.5v-9L12 3z"/><circle cx="12" cy="12" r="1.6" fill="#fff" stroke="none"/></svg>
+          </span>
+          <span class="about__stack-name">Node.js</span>
+        </div>
+
+        <div class="about__stack-item" title="Express.js">
+          <span class="about__stack-icon" style="background:#000">
+            <svg viewBox="0 0 24 24"><text x="12" y="16" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-style="italic" font-size="9.5" fill="#fff">ex</text></svg>
+          </span>
+          <span class="about__stack-name">Express</span>
+        </div>
+
+        <div class="about__stack-item" title="MongoDB">
+          <span class="about__stack-icon" style="background:#fffdf7;border:2px solid rgba(90,45,22,0.1)">
+            <svg viewBox="0 0 24 24" fill="#47a248"><path d="M12 3c2.4 3 3.6 6 3.6 9 0 3.4-1.6 6.2-3.6 9-2-2.8-3.6-5.6-3.6-9 0-3 1.2-6 3.6-9z"/><path d="M12 12v9" stroke="#2e7031" stroke-width="1"/></svg>
+          </span>
+          <span class="about__stack-name">MongoDB</span>
+        </div>
+
+        <div class="about__stack-item" title="Python">
+          <span class="about__stack-icon" style="background:linear-gradient(135deg,#306998 0%,#ffd43b 100%)">
+            <svg viewBox="0 0 24 24"><text x="12" y="16" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="9" fill="#fff">Py</text></svg>
+          </span>
+          <span class="about__stack-name">Python</span>
+        </div>
+
+        <div class="about__stack-item" title="Django">
+          <span class="about__stack-icon" style="background:#092e20">
+            <svg viewBox="0 0 24 24"><text x="12" y="16" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="9" fill="#fff">Dj</text></svg>
+          </span>
+          <span class="about__stack-name">Django</span>
+        </div>
+
+        <div class="about__stack-item" title="AWS">
+          <span class="about__stack-icon" style="background:#232f3e">
+            <svg viewBox="0 0 24 24"><text x="12" y="13.5" text-anchor="middle" font-family="Poppins, sans-serif" font-weight="700" font-size="7.5" fill="#ff9900">aws</text><path d="M6 16c3 1.6 9 1.6 12 0" stroke="#ff9900" stroke-width="1.2" fill="none" stroke-linecap="round"/></svg>
+          </span>
+          <span class="about__stack-name">AWS</span>
+        </div>
+
+        <div class="about__stack-item" title="Figma">
+          <span class="about__stack-icon" style="background:#fffdf7;border:2px solid rgba(90,45,22,0.1)">
+            <svg viewBox="0 0 24 24">
+              <path d="M9 3h3v6H9a3 3 0 1 1 0-6z" fill="#a259ff"/>
+              <path d="M12 3h3a3 3 0 1 1 0 6h-3V3z" fill="#f24e1e"/>
+              <path d="M12 9h3a3 3 0 1 1-3 3V9z" fill="#1abcfe"/>
+              <path d="M9 9h3v6H9a3 3 0 1 1 0-6z" fill="#0acf83"/>
+              <circle cx="9" cy="18" r="3" fill="#ff7262"/>
+            </svg>
+          </span>
+          <span class="about__stack-name">Figma</span>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="about__block about__block--skills" data-reveal="pop" style="--reveal-delay: 0.12s">
+      <h3 class="about__block-title">
+        <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M13.2 2.5 5.5 13h4.6l-1.3 8.5L16.5 10h-4.6l1.3-7.5z"/></svg>
+        Skills
+      </h3>
+      <div class="about__skills-grid">
+        <span class="about__skill">Full-Stack Development</span>
+        <span class="about__skill">UI/UX Design</span>
+        <span class="about__skill">Product Strategy</span>
+        <span class="about__skill">Motion &amp; Animation</span>
+        <span class="about__skill">Cloud Deployment</span>
+        <span class="about__skill">Content Creation</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- companies section: two spotlight rows, one per venture. Each row's
+     panel background echoes the photo's own studio backdrop (warm cream
+     for Blackbox, dark teal for PRception) and a mask-image feathers the
+     photo edges so it blends into the panel instead of sitting in a box -->
+<section class="companies" id="companies">
+  <div class="companies__head" data-reveal>
+    <span class="companies__kicker">what I've built</span>
+    <h2 class="companies__title">Companies I Run</h2>
+  </div>
+
+  <div class="companies__row companies__row--blackbox" data-reveal="pop">
+    <div class="companies__deco" aria-hidden="true">
+      <span class="deco companies__spark companies__spark--1">✦</span>
+      <span class="deco companies__spark companies__spark--2">✳</span>
+    </div>
+    <div class="companies__bgtext" aria-hidden="true">
+      <img src="assets/images/LOGO/BBX TM Logo.png" alt="" class="companies__bgtext-logo">
+    </div>
+
+    <div class="companies__media">
+      <img src="assets/images/BLACKBOX.png" alt="Blackbox Learning mascot and team celebrating" class="companies__img">
+      <span class="companies__stamp">
+        <img src="assets/images/LOGO/BBX SMALL LOGO.png" alt="Blackbox Learning logo">
+      </span>
+    </div>
+
+    <div class="companies__content">
+      <span class="companies__badge clay clay--orange">Co-Founder</span>
+      <h3 class="companies__name">Blackbox <span class="companies__name-accent">Learning</span></h3>
+      <p class="companies__text">
+        Blackbox Learning is a modern edtech platform dedicated to helping students build
+        industry-ready skills through practical, hands-on learning. We offer expert-led courses,
+        real-world projects, internships, and career-focused training in software development,
+        cybersecurity, AI, and emerging technologies to bridge the gap between education and employment.
+      </p>
+      <div class="companies__actions">
+        <a class="companies__link companies__link--orange" href="https://blackboxlearning.in/" target="_blank" rel="noopener">
+          Visit Blackbox Learning
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+        </a>
+        <div class="companies__socials">
+          <a class="companies__social-icon social__card-icon--insta" href="https://www.instagram.com/bbx.learning/" target="_blank" rel="noopener" aria-label="Blackbox Learning on Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.5" fill="currentColor"/></svg>
+          </a>
+          <a class="companies__social-icon clay clay--whatsapp" href="https://wa.me/919747299237" target="_blank" rel="noopener" aria-label="Chat with Blackbox Learning on WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.6-1.2-1.4-1.4-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.3-.4.1-.1 0-.3 0-.4s-.6-1.4-.8-2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2 1 2.4c.1.1 1.7 2.6 4.1 3.6.6.2 1 .4 1.4.5.6.2 1.1.1 1.5.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1l-.4-.2Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="companies__row companies__row--prception" data-reveal="pop" style="--reveal-delay: 0.12s">
+    <div class="companies__deco" aria-hidden="true">
+      <span class="deco companies__spark companies__spark--3">✺</span>
+      <span class="deco companies__spark companies__spark--4">✦</span>
+    </div>
+    <div class="companies__bgtext" aria-hidden="true">
+      <img src="assets/images/LOGO/PRception Tm.png" alt="" class="companies__bgtext-logo">
+    </div>
+
+    <div class="companies__content">
+      <span class="companies__badge clay clay--sky">Software Developer</span>
+      <h3 class="companies__name companies__name--light">PRception</span></h3>
+      <p class="companies__text companies__text--light">
+        PRception is a forward-thinking tech studio building digital products and experiences
+        at the edge of design and engineering. From polished interfaces to resilient backend
+        systems, we craft software that feels as sharp as it performs.
+      </p>
+      <div class="companies__actions">
+        <a class="companies__link companies__link--teal" href="https://prception.in/" target="_blank" rel="noopener">
+          Visit PRception
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+        </a>
+        <div class="companies__socials">
+          <a class="companies__social-icon social__card-icon--insta" href="https://www.instagram.com/prception.in/" target="_blank" rel="noopener" aria-label="PRception on Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.5" fill="currentColor"/></svg>
+          </a>
+          <a class="companies__social-icon clay clay--whatsapp" href="https://wa.me/917012998181" target="_blank" rel="noopener" aria-label="Chat with PRception on WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.6-1.2-1.4-1.4-1.6-.1-.2 0-.4.1-.5l.4-.4c.1-.1.2-.3.3-.4.1-.1 0-.3 0-.4s-.6-1.4-.8-2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2 1 2.4c.1.1 1.7 2.6 4.1 3.6.6.2 1 .4 1.4.5.6.2 1.1.1 1.5.1.5-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1l-.4-.2Z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="companies__media">
+      <img src="assets/images/PRCEPTION.png" alt="PRception brand visual" class="companies__img">
+      <span class="companies__stamp">
+        <img src="assets/images/LOGO/Prception small logo.png" alt="PRception logo">
+      </span>
+    </div>
+  </div>
+</section>
+
+<!-- socialmedia section -->
+<section class="social" id="social">
+  <div class="social__pin" id="socialPin">
+    <div class="social__ring" aria-hidden="true"></div>
+    <div class="social__deco" aria-hidden="true">
+      <span class="deco social__spark social__spark--1">✦</span>
+      <span class="deco social__spark social__spark--2">✳</span>
+      <span class="deco social__spark social__spark--3">✺</span>
+    </div>
+
+    <div class="social__head" data-reveal>
+      <p class="social__kicker">say hey on</p>
+      <h2 class="social__title">Find me online</h2>
+      <span class="social__swipe">scroll to explore <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg></span>
+    </div>
+
+    <div class="social__viewport" id="socialViewport">
+      <div class="social__track" id="socialTrack">
+
+      <a class="social__card social__card--insta" data-reveal="pop" href="https://www.instagram.com/" target="_blank" rel="noopener">
+        <div class="social__card-img">
+          <!-- drop your instagram image here -->
+          <img src="assets/images/social-instagram.jpg" alt="Instagram">
+        </div>
+        <div class="social__card-body">
+          <span class="social__card-icon social__card-icon--insta">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="0.5" fill="currentColor"/></svg>
+          </span>
+          <h3 class="social__card-title">Instagram</h3>
+          <p class="social__card-text">Behind-the-scenes moments, reels &amp; daily doodles.</p>
+          <span class="social__card-link">
+            Follow along
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <a class="social__card social__card--fb" data-reveal="pop" style="--reveal-delay: 0.12s" href="https://www.facebook.com/" target="_blank" rel="noopener">
+        <div class="social__card-img">
+          <!-- drop your facebook image here -->
+          <img src="assets/images/social-facebook.jpg" alt="Facebook">
+        </div>
+        <div class="social__card-body">
+          <span class="social__card-icon clay clay--sky">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14.5 21v-8.4h2.8l.4-3.3h-3.2V7.1c0-.95.26-1.6 1.63-1.6h1.74V2.56C17.6 2.46 16.5 2.4 15.2 2.4c-2.7 0-4.55 1.65-4.55 4.68v2.28H7.85v3.3h2.8V21h3.85z"/></svg>
+          </span>
+          <h3 class="social__card-title">Facebook</h3>
+          <p class="social__card-text">Updates, announcements &amp; a peek into the journey.</p>
+          <span class="social__card-link">
+            Give a like
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <a class="social__card social__card--yt" data-reveal="pop" href="https://www.youtube.com/" target="_blank" rel="noopener">
+        <div class="social__card-img">
+          <!-- drop your youtube image here -->
+          <img src="assets/images/social-youtube.jpg" alt="YouTube">
+        </div>
+        <div class="social__card-body">
+          <span class="social__card-icon clay clay--red">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2c-.28-1.04-1.09-1.85-2.13-2.13C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.37.52C1.59 4.35.78 5.16.5 6.2 0 8.07 0 12 0 12s0 3.93.5 5.8c.28 1.04 1.09 1.85 2.13 2.13 1.87.52 9.37.52 9.37.52s7.5 0 9.37-.52c1.04-.28 1.85-1.09 2.13-2.13.5-1.87.5-5.8.5-5.8s0-3.93-.5-5.8zM9.6 15.6V8.4L15.8 12l-6.2 3.6z"/></svg>
+          </span>
+          <h3 class="social__card-title">YouTube</h3>
+          <p class="social__card-text">Longer stories, tutorials &amp; behind-the-scenes vlogs.</p>
+          <span class="social__card-link">
+            Watch now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      <a class="social__card social__card--li" data-reveal="pop" href="https://www.linkedin.com/" target="_blank" rel="noopener">
+        <div class="social__card-img">
+          <!-- drop your linkedin image here -->
+          <img src="assets/images/social-linkedin.jpg" alt="LinkedIn">
+        </div>
+        <div class="social__card-body">
+          <span class="social__card-icon clay clay--navy">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.2 8h4.6v14.8H.2V8zm7.6 0h4.4v2h.06c.62-1.16 2.12-2.4 4.36-2.4 4.66 0 5.52 3.06 5.52 7.04v8.16h-4.6v-7.24c0-1.72-.04-3.94-2.4-3.94-2.4 0-2.78 1.88-2.78 3.82v7.36H7.8V8z"/></svg>
+          </span>
+          <h3 class="social__card-title">LinkedIn</h3>
+          <p class="social__card-text">Career updates, projects &amp; professional musings.</p>
+          <span class="social__card-link">
+            Let's connect
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M13 6l6 6-6 6"/></svg>
+          </span>
+        </div>
+      </a>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- work shown section: one pinned playful panel, two beats (lenis.dev style).
+     Beat 1: giant lines shear horizontally in opposite directions, then fade.
+     Beat 2: on the same stuck screen, "ENTER THE WORK" appears centered and
+     zooms into the stem of the "T", flashing through its orange fill before
+     the cream veil lands on the next section. Driven by works-intro.js. -->
+<section class="works-intro" id="works" aria-label="Work showcase">
+  <div class="works-intro__pin" id="worksIntroPin">
+    <div class="works-intro__blobs" aria-hidden="true">
+      <span class="works-intro__blob works-intro__blob--1"></span>
+      <span class="works-intro__blob works-intro__blob--2"></span>
+      <span class="works-intro__blob works-intro__blob--3"></span>
+      <span class="works-intro__blob works-intro__blob--4"></span>
+    </div>
+
+    <div class="works-intro__deco" aria-hidden="true">
+      <span class="deco works-intro__spark works-intro__spark--1">✳</span>
+      <span class="deco works-intro__spark works-intro__spark--2">✦</span>
+      <span class="deco works-intro__spark works-intro__spark--3">✺</span>
+      <span class="deco works-intro__spark works-intro__spark--4">✦</span>
+      <svg class="works-intro__squiggle" viewBox="0 0 120 40" fill="none">
+        <path d="M4 20 C 14 6, 24 6, 34 20 C 44 34, 54 34, 64 20 C 74 6, 84 6, 94 20 C 104 34, 112 34, 116 22" stroke="#ee4d1f" stroke-width="5" stroke-linecap="round"/>
+      </svg>
+      <svg class="works-intro__burst" viewBox="0 0 48 48" fill="none" stroke="#9b5bb5" stroke-width="4" stroke-linecap="round">
+        <path d="M24 6v10M24 32v10M6 24h10M32 24h10M11 11l7 7M30 30l7 7M37 11l-7 7M18 30l-7 7"/>
+      </svg>
+    </div>
+
+    <div class="works-intro__shear" id="worksShear">
+      <h2 class="works-intro__title">
+        <span class="works-intro__row"><span class="works-intro__text" data-works-speed="0.55">LET MY WORK</span></span>
+        <span class="works-intro__row"><span class="works-intro__text works-intro__text--accent" data-works-speed="0.85">DO THE TALKING</span></span>
+      </h2>
+      <p class="works-intro__closer">
+        <span class="works-intro__text" data-works-speed="-0.65">SCROLL TO SEE</span>
+      </p>
+    </div>
+
+    <h2 class="works-intro__zoom" id="worksZoomTitle">ENTER <span class="works-intro__zoom-letter" id="worksZoomLetter">T</span>HE <span class="works-intro__zoom-accent">WORK</span></h2>
+
+    <div class="works-intro__veil" aria-hidden="true"></div>
+  </div>
+</section>
+
+<!-- WORK SHOWCASE SECTION: horizontal gallery (landonorris.com style) — the
+     viewport pins while the page scroll drives the track sideways
+     (works-gallery.js); images sit at staggered heights with small labels,
+     a quote block mixed in, and a CTA card at the end -->
+<section class="works-gallery" id="worksGallery" aria-label="Selected works">
+  <div class="works-gallery__pin">
+    <div class="works-gallery__track" id="worksGalleryTrack">
+
+      <figure class="works-gallery__item works-gallery__item--1">
+        <figcaption class="works-gallery__label">Blackbox Learning, 2024</figcaption>
+        <div class="works-gallery__img works-gallery__img--pink">
+          <!-- drop your work image here -->
+          <img src="assets/images/work-1.jpg" alt="Blackbox Learning">
+        </div>
+      </figure>
+
+      <figure class="works-gallery__item works-gallery__item--2">
+        <figcaption class="works-gallery__label">UI/UX — Client Work, 2024</figcaption>
+        <div class="works-gallery__img works-gallery__img--gold">
+          <!-- drop your work image here -->
+          <img src="assets/images/work-2.jpg" alt="UI/UX client project">
+        </div>
+      </figure>
+
+      <div class="works-gallery__quote">
+        <p>It doesn't matter <strong>what</strong> I build, it matters <strong>how much fun</strong> it is to use.</p>
+        <span class="works-gallery__sign">Jeeshma</span>
+      </div>
+
+      <figure class="works-gallery__item works-gallery__item--3">
+        <figcaption class="works-gallery__label">PRception, 2025</figcaption>
+        <div class="works-gallery__img works-gallery__img--lilac">
+          <!-- drop your work image here -->
+          <img src="assets/images/work-3.jpg" alt="PRception project">
+        </div>
+      </figure>
+
+      <figure class="works-gallery__item works-gallery__item--4">
+        <figcaption class="works-gallery__label">Content Creation, 2025</figcaption>
+        <div class="works-gallery__img works-gallery__img--mint">
+          <!-- drop your work image here -->
+          <img src="assets/images/work-4.jpg" alt="Content creation">
+        </div>
+      </figure>
+
+      <figure class="works-gallery__item works-gallery__item--5">
+        <figcaption class="works-gallery__label">Branding, 2024</figcaption>
+        <div class="works-gallery__img works-gallery__img--pink">
+          <!-- drop your work image here -->
+          <img src="assets/images/work-5.jpg" alt="Branding project">
+        </div>
+      </figure>
+
+      <figure class="works-gallery__item works-gallery__item--6">
+        <figcaption class="works-gallery__label">Side Project, 2025</figcaption>
+        <div class="works-gallery__img works-gallery__img--gold">
+          <!-- drop your work image here -->
+          <img src="assets/images/work-6.jpg" alt="Side project">
+        </div>
+      </figure>
+
+      <a class="works-gallery__cta" href="#contact">
+        <span class="works-gallery__cta-text">GOT A<br>PROJECT?</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+      </a>
+
+    </div>
+  </div>
+</section>
+ 
+
+<!-- contact me section -->
+<section class="contact" id="contact">
+  <div class="contact__ring" aria-hidden="true"></div>
+  <div class="contact__deco" aria-hidden="true">
+    <span class="deco contact__spark contact__spark--1">✦</span>
+    <span class="deco contact__spark contact__spark--2">✳</span>
+    <span class="deco contact__spark contact__spark--3">✺</span>
+  </div>
+
+  <div class="contact__inner">
+
+    <div class="contact__form-col" data-reveal="left">
+      <div class="contact__mini-me">
+        <!-- drop your mini-me image here -->
+        <img src="assets/images/mini-me.png" alt="Mini me mascot" class="contact__mini-me-img">
+      </div>
+
+      <form class="contact__form" action="mailto:jeeshma@blackboxlearning.in" method="post" enctype="text/plain">
+        <span class="contact__tape contact__tape--l" aria-hidden="true"></span>
+        <span class="contact__tape contact__tape--r" aria-hidden="true"></span>
+
+        <p class="contact__form-kicker">got an idea?</p>
+        <h3 class="contact__form-title">Let's make it fun ✨</h3>
+
+        <label class="contact__field">
+          <span>Your name</span>
+          <input type="text" name="name" placeholder="Jane Doe" required>
+        </label>
+
+        <label class="contact__field">
+          <span>Your email</span>
+          <input type="email" name="email" placeholder="jane@email.com" required>
+        </label>
+
+        <label class="contact__field">
+          <span>Your message</span>
+          <textarea name="message" rows="4" placeholder="Tell me everything..." required></textarea>
+        </label>
+
+        <button type="submit" class="contact__submit">
+          Send it over
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+        </button>
+      </form>
+    </div>
+
+    <div class="contact__text-col" data-reveal="right" style="--reveal-delay: 0.1s">
+      <div class="contact__bgword" aria-hidden="true">
+        <div class="contact__bgword-row"><span>TALK</span><span>TALK</span><span>TALK</span><span>TALK</span></div>
+        <div class="contact__bgword-row contact__bgword-row--offset"><span>TALK</span><span>TALK</span><span>TALK</span><span>TALK</span></div>
+        <div class="contact__bgword-row"><span>TALK</span><span>TALK</span><span>TALK</span><span>TALK</span></div>
+        <div class="contact__bgword-row contact__bgword-row--offset"><span>TALK</span><span>TALK</span><span>TALK</span><span>TALK</span></div>
+        <div class="contact__bgword-row"><span>TALK</span><span>TALK</span><span>TALK</span><span>TALK</span></div>
+        <div class="contact__bgword-row contact__bgword-row--offset"><span>TALK</span><span>TALK</span><span>TALK</span><span>TALK</span></div>
+        <div class="contact__bgword-row"><span>TALK</span><span>TALK</span><span>TALK</span><span>TALK</span></div>
+      </div>
+      <div class="contact__headline">
+        <span class="contact__headline-line">LET'S TALK</span>
+        <span class="contact__headline-line contact__headline-line--fill">SAY HI</span>
+      </div>
+      <p class="contact__tagline">Got a project, a wild idea, or just wanna say hi? My inbox is always open.</p>
+    </div>
+
+  </div>
+</section>
+
+<div id="footer"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<script src="assets/js/smooth-scroll.js"></script>
+<script src="assets/js/reveal.js"></script>
+<script src="assets/js/navbar.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/social-scroll.js"></script>
+<script src="assets/js/works-intro.js"></script>
+<script src="assets/js/works-gallery.js"></script>
+<script src="assets/js/footer.js"></script>
+</body>
+</html>
