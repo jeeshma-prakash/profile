@@ -16,9 +16,14 @@ Jeeshma Prakash works across the stack — from interface design to backend arch
 ## Pages
 
 - [Portfolio home](https://jeeshma.prception.in/): full profile, work showcase, FAQ and contact form
+- [Blog](https://jeeshma.prception.in/blog.html): notes on web development, UI/UX design and startups
 - [Contact](https://jeeshma.prception.in/contact.html): contact form, email, WhatsApp and socials
 - [Blackbox Learning](https://blackboxlearning.in/): edtech platform for industry-ready courses in software development, cybersecurity and AI
 - [PRception](https://prception.in/): tech studio building digital products and experiences
+
+## Blog posts
+
+- [Build a Fast, SEO-Friendly Portfolio Website From Scratch](https://jeeshma.prception.in/blog/build-fast-seo-friendly-portfolio-website.html): semantic HTML, Core Web Vitals, on-page SEO and structured data
 
 ## Selected work
 

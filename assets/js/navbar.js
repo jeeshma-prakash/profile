@@ -3,7 +3,7 @@
   var mount = document.getElementById('navbar');
   if (!mount) return;
 
-  fetch('navbar.html')
+  fetch('/navbar.html')
     .then(function (res) { return res.text(); })
     .then(function (html) {
       mount.innerHTML = html;

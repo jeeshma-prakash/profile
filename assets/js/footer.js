@@ -3,7 +3,7 @@
   var mount = document.getElementById('footer');
   if (!mount) return;
 
-  fetch('footer.html')
+  fetch('/footer.html')
     .then(function (res) { return res.text(); })
     .then(function (html) {
       mount.innerHTML = html;

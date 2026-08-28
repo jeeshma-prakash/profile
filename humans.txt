@@ -1,0 +1,20 @@
+/* TEAM */
+Design & Development: Jeeshma Prakash
+Site: https://jeeshma.prception.in/
+Location: Kerala, India
+Contact: jeeshma@blackboxlearning.in / jeeshma@prception.in
+Instagram: https://www.instagram.com/itsjeeshma/
+LinkedIn: https://www.linkedin.com/in/jeeshma-prakash-s/
+
+/* THANKS */
+Blackbox Learning: https://blackboxlearning.in/
+PRception: https://prception.in/
+
+/* SITE */
+Last update: 2026/08/28
+Language: English
+Doctype: HTML5
+IDE: Visual Studio Code
+Standards: HTML5, CSS3, JSON-LD, Schema.org
+Components: Lenis, anime.js
+Software: Google Fonts (Anton, Caveat, Poppins)

@@ -3,7 +3,7 @@
   var mount = document.getElementById('fab');
   if (!mount) return;
 
-  fetch('fab.html')
+  fetch('/fab.html')
     .then(function (res) { return res.text(); })
     .then(function (html) {
       mount.innerHTML = html;
