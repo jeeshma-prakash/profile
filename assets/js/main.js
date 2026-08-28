@@ -12,10 +12,10 @@
   var dots = Array.prototype.slice.call(document.querySelectorAll('.hero__dot'));
 
   var slides = [
-    { key: 's1', role: 'ENTREPRENEUR',      src: 'assets/images/Entrepreneur.png' },
-    { key: 's2', role: 'MENTOR',            src: 'assets/images/Mentor.png' },
-    { key: 's3', role: 'CONTENT CREATOR',   src: 'assets/images/ContentCreator.png'},
-    { key: 's4', role: 'WEB DEVELOPER',     src: 'assets/images/developer.png'}
+    { key: 's1', role: 'ENTREPRENEUR',      src: 'assets/images/Entrepreneur.webp' },
+    { key: 's2', role: 'MENTOR',            src: 'assets/images/Mentor.webp' },
+    { key: 's3', role: 'CONTENT CREATOR',   src: 'assets/images/ContentCreator.webp'},
+    { key: 's4', role: 'WEB DEVELOPER',     src: 'assets/images/developer.webp'}
   ];
 
   var current = 0;
@@ -79,7 +79,7 @@
   // square it back up so the hero stays perfectly pinned to the viewport
   function settleToTop() {
     if (window.scrollY < 1) return;
-    if (window.lenis) window.lenis.scrollTo(0);
+    if (window.lenis) window.lenis.scrollTo(0, { immediate: true });
     else window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
@@ -169,11 +169,18 @@
   function onWheel(e) {
     var now = performance.now();
     var absDelta = Math.abs(e.deltaY);
-    // a "new gesture" is a pause since the last event, a delta that grew
-    // (the user pushed again), or a strong deliberate tick. Anything else is
-    // the decaying inertia tail of a trackpad flick and must not fire a
-    // second slide — this is what stops fast scrolls from skipping slides.
+    // a "new gesture" is a pause since the last event, a reversal in
+    // direction, a delta that grew (the user pushed again), or a strong
+    // deliberate tick. Anything else is the decaying inertia tail of a
+    // trackpad flick and must not fire a second slide — this is what stops
+    // fast scrolls from skipping slides. Direction reversal must always
+    // count as new, otherwise flicking up right after scrolling down (or
+    // vice versa) gets swallowed as "inertia" of the old gesture: the event
+    // still gets preventDefault'd but no slide change fires, so the scroll
+    // just dies at that point.
+    var reversed = lastWheelDelta !== 0 && (e.deltaY > 0) !== (lastWheelDelta > 0);
     var isNewGesture =
+      reversed ||
       now - lastWheelTime > 180 ||
       absDelta > Math.abs(lastWheelDelta) + 1 ||
       absDelta >= 60;

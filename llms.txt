@@ -1,0 +1,39 @@
+# Jeeshma Prakash
+
+> Web developer, UI/UX designer and entrepreneur based in Kerala, India. Co-founder of Blackbox Learning (edtech) and software developer at PRception (product/engineering studio). Builds full-stack websites, product interfaces and content that convert.
+
+Jeeshma Prakash works across the stack — from interface design to backend architecture — and also takes on independent UI/UX design and content creation projects. Focus: functional, polished, genuinely enjoyable-to-use products.
+
+## Facts
+
+- Name: Jeeshma Prakash
+- Roles: Web Developer, UI/UX Designer, Entrepreneur, Co-Founder
+- Location: Kerala, India
+- Companies: Blackbox Learning (co-founder), PRception (software developer)
+- Tech stack: HTML5, CSS3, JavaScript, React, Next.js, Node.js, Express, MongoDB, Python, Django, Tailwind, Bootstrap, GSAP, Three.js, AWS, Figma
+- Contact: jeeshma@blackboxlearning.in, jeeshma@prception.in
+
+## Pages
+
+- [Portfolio home](https://jeeshma.prception.in/): full profile, work showcase, FAQ and contact form
+- [Contact](https://jeeshma.prception.in/contact.html): contact form, email, WhatsApp and socials
+- [Blackbox Learning](https://blackboxlearning.in/): edtech platform for industry-ready courses in software development, cybersecurity and AI
+- [PRception](https://prception.in/): tech studio building digital products and experiences
+
+## Selected work
+
+- Blackbox Learning — edtech platform
+- Digital Mugavari — web development
+- PRception — product studio site
+- LynkLead — web development
+- TealCore — web development
+- Creo — web development
+- Noble Brew — web development
+
+## Social
+
+- Instagram: https://www.instagram.com/itsjeeshma/
+- LinkedIn: https://www.linkedin.com/in/jeeshma-prakash-s/
+- Threads: https://www.threads.com/@itsjeeshma
+- YouTube: https://youtube.com/@itsjeeshma
+- Facebook: https://www.facebook.com/share/1DQCPrryQC/
