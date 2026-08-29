@@ -16,6 +16,7 @@ Jeeshma Prakash works across the stack — from interface design to backend arch
 ## Pages
 
 - [Portfolio home](https://jeeshma.prception.in/): full profile, work showcase, FAQ and contact form
+- [Work](https://jeeshma.prception.in/work.html): every project as a full case study — challenge, approach and outcome
 - [Blog](https://jeeshma.prception.in/blog.html): notes on web development, UI/UX design and startups
 - [Contact](https://jeeshma.prception.in/contact.html): contact form, email, WhatsApp and socials
 - [Blackbox Learning](https://blackboxlearning.in/): edtech platform for industry-ready courses in software development, cybersecurity and AI
@@ -27,10 +28,13 @@ Jeeshma Prakash works across the stack — from interface design to backend arch
 
 ## Selected work
 
-- Blackbox Learning — edtech platform
+Full case studies for each at https://jeeshma.prception.in/work.html
+
+- Blackbox Learning — edtech platform, co-founded
 - Digital Mugavari — web development
 - PRception — product studio site
 - LynkLead — web development
+- Leggo — web development
 - TealCore — web development
 - Creo — web development
 - Noble Brew — web development
